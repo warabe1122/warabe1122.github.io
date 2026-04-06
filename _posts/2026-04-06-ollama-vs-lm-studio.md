@@ -201,14 +201,12 @@ There's no wrong answer. Both are free, both are excellent, and both run the sam
 
 If you're still not entirely sure which tool to start with, read these next in order:
 
-1. **[LM Studio Setup Guide 2026: Install and Run Local LLMs in 5 Minutes](/tutorial/lm%20studio/lm-studio-setup-guide-2026/)** — Get LM Studio running if you haven't already.
+1. **[LM Studio Setup Guide 2026](/tutorial/lm%20studio/lm-studio-setup-guide-2026/)** — Get LM Studio running if you haven't already.
 
-2. **[Best Local LLM Models for M2/M3 Mac: Performance Benchmark 2026](/tutorial/benchmarks/best-local-llm-models-mac/)** — Find the right model for your specific hardware.
+2. **[Ollama vs LM Studio: Which Local LLM Tool Should You Choose?](/tutorial/ollama/ollama-vs-lm-studio/)** — Pick the right tool for your workflow.
 
-3. **[When to Use Local LLMs vs Cloud APIs: Decision Framework for Developers](/hybrid/decision-framework/when-to-use-local-vs-cloud-llms/)** — Learn when to route locally and when to call the cloud.
-
-4. **[Hybrid LLM Architecture: Save 50–70% on AI Costs with Smart Routing](/hybrid/architecture/hybrid-llm-architecture-cost-savings/)** — Build the full hybrid stack.
+3. **[Best Local LLM Models for M2/M3/M4 Mac: Performance Benchmark 2026](/tutorial/benchmarks/best-local-llm-models-mac/)** — Find the right model for your specific hardware.
 
 ---
 
-*Building a hybrid LLM setup and not sure where to start? Reach out on [X/Twitter](https://x.com/), or **[subscribe to our newsletter](/newsletter/)** for weekly hybrid LLM tips and cost optimization strategies.*
+*Have questions about your setup? Reach out on [X/Twitter](https://x.com/hybridllm).*
