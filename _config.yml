@@ -20,9 +20,9 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "HybridLLM.dev"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "TsuSu | HybridLLM.dev"
 description              : "Master hybrid LLM strategies: When to run locally vs cloud APIs. LM Studio, Ollama setup, cost optimization, and smart workload routing."
-url                      : "https://warabe1122.github.io"
+url                      : "https://hybrid-llm.com/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
