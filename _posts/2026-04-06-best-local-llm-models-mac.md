@@ -250,12 +250,10 @@ Not sure how to set up Ollama or LM Studio? Start with our **[LM Studio setup gu
 
 Now that you know which model runs best on your Mac:
 
-1. **[When to Use Local LLMs vs Cloud APIs: Decision Framework for Developers](/hybrid/decision-framework/when-to-use-local-vs-cloud-llms/)** — Learn the routing logic for when local is enough and when to call the cloud.
+1. **[LM Studio Setup Guide 2026](/tutorial/lm%20studio/lm-studio-setup-guide-2026/)** — Get LM Studio running if you haven't already.
 
-2. **[Hybrid LLM Architecture: Save 50–70% on AI Costs with Smart Routing](/hybrid/architecture/hybrid-llm-architecture-cost-savings/)** — Build the system that combines your local Mac setup with cloud APIs for maximum efficiency.
-
-3. **[Running Llama 3.3 70B Locally: Hardware Requirements and Setup](/tutorial/llama/running-llama-3-70b-locally/)** — Deep dive into the 70B experience if you have the hardware.
+2. **[Ollama vs LM Studio: Which Local LLM Tool Should You Choose?](/tutorial/ollama/ollama-vs-lm-studio/)** — Pick the right tool for your workflow.
 
 ---
 
-*Running benchmarks on a Mac configuration not listed here? Share your results on [X/Twitter](https://x.com/) and tag us — we'll add community benchmarks to this page. Or **[subscribe to our newsletter](/newsletter/)** for weekly model recommendations and performance updates.*
+*Running benchmarks on a Mac configuration not listed here? Share your results on [X/Twitter](https://x.com/hybridllm) and tag us — we'll add community benchmarks to this page.*
