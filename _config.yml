@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "HybridLLM.dev"
-  avatar           : "/assets/images/site-logo.png"
+  avatar           : "/assets/images/profile-photo.png"
   bio              : "Run AI locally, call the cloud only when you need it. Practical guides for developers building hybrid LLM workflows."
   location         :
   email            :
