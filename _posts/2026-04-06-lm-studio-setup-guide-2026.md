@@ -260,20 +260,14 @@ The local API server makes this routing seamless. Your application doesn't need 
 
 ---
 
-## What's Next — Building Your Hybrid LLM Strategy
+## What's Next
 
-You now have a working local LLM setup. That's the foundation. The next step is knowing *when* to run locally and when to call the cloud — that's where the real savings and competitive advantage live.
+If you're still not entirely sure which tool to start with, read these next in order:
 
-**Recommended reading, in order:**
+1. **[LM Studio Setup Guide 2026](/tutorial/lm%20studio/lm-studio-setup-guide-2026/)** — Get LM Studio running if you haven't already.
 
-1. **[Ollama vs LM Studio: Which Local LLM Tool Should You Choose?](/tutorial/ollama/ollama-vs-lm-studio/)** — Understand the strengths of each tool so you can pick the right one for each workflow.
-
-2. **[Best Local LLM Models for M2/M3 Mac: Performance Benchmark 2026](/tutorial/benchmarks/best-local-llm-models-mac/)** — Real performance data on Apple Silicon to help you pick the right model for your hardware.
-
-3. **[When to Use Local LLMs vs Cloud APIs: Decision Framework for Developers](/hybrid/decision-framework/when-to-use-local-vs-cloud-llms/)** — The practical decision framework for routing tasks between local and cloud models.
-
-4. **[Hybrid LLM Architecture: Save 50–70% on AI Costs with Smart Routing](/hybrid/architecture/hybrid-llm-architecture-cost-savings/)** — The complete implementation guide for building a hybrid stack that cuts costs without sacrificing quality.
+2. **[Best Local LLM Models for M2/M3/M4 Mac: Performance Benchmark 2026](/tutorial/benchmarks/best-local-llm-models-mac/)** — Find the right model for your specific hardware.
 
 ---
 
-*Have questions about your specific hardware setup or hybrid architecture? Drop a comment below, reach out on [X/Twitter](https://x.com/), or **[subscribe to our newsletter](/newsletter/)** for weekly hybrid LLM tips.*
+*Building a hybrid LLM setup and not sure where to start? Reach out on [X/Twitter](https://x.com/hybridllm).*
