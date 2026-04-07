@@ -131,6 +131,8 @@ I ran each model through the same set of developer tasks (5–10 prompts per cat
 
 ---
 
+![GPT-4 vs Llama 3.3 quality scorecard across developer tasks](/assets/images/articles/day9_scorecard.png)
+
 ## Summary Scorecard
 
 | Task | GPT-4 Turbo | Llama 14B | Llama 70B |

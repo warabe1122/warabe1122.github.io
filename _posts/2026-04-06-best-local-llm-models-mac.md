@@ -73,6 +73,8 @@ All numbers represent **typical results** — your actual speed may vary by 10�
 
 ---
 
+![Apple Silicon LLM Model Guide — RAM tiers and recommended models](/assets/images/articles/hardware_model_guide.png)
+
 ## Benchmark Results by Mac Configuration
 
 ### M2 / M3 Air — 8 GB Unified Memory

@@ -28,6 +28,8 @@ This guide assumes you've used ChatGPT, Claude, or Gemini at least once, but hav
 
 ---
 
+![Local LLM vs Cloud API comparison — privacy, cost, speed, quality](/assets/images/articles/local_vs_cloud.png)
+
 ## What Is a Local LLM?
 
 A Large Language Model (LLM) is the AI behind tools like ChatGPT, Claude, and Gemini. When you use these services, your text is sent to a remote server, processed, and the response is sent back.

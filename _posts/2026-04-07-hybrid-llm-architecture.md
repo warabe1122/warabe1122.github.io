@@ -69,6 +69,8 @@ Most teams use a mix of these, and the bill lands somewhere between **$500 and $
 
 A hybrid LLM architecture classifies tasks before they hit a model, then routes each task to the most cost-effective option that maintains acceptable quality.
 
+![Hybrid LLM Architecture — 3-tier routing from local 14B to cloud API](/assets/images/articles/architecture_3tier.png)
+
 ```
 Incoming Task
     │

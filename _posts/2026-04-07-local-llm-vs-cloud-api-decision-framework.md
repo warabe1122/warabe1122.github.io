@@ -139,6 +139,8 @@ Cloud makes financial sense for: low-volume tasks where setup overhead isn't jus
 
 ---
 
+![Local vs Cloud 30-second decision flowchart](/assets/images/articles/decision_flowchart.png)
+
 ## The 30-Second Decision Checklist
 
 Run through this for every new AI task or integration:

@@ -311,6 +311,8 @@ Review weekly. The patterns will surprise you — the biggest cost driver is rar
 
 ## Combined Impact: The Full Optimization
 
+![LLM API cost reduction waterfall — $2,000 to $400 per month](/assets/images/articles/day11_cost_waterfall.png)
+
 Here's how the 7 techniques stacked for our case study team:
 
 | Technique | Monthly Savings | Cumulative Bill |

@@ -45,6 +45,8 @@ If you're new to local LLMs, start with the [Complete Beginner's Guide](/tutoria
 
 ---
 
+![Hybrid LLM Architecture — 3-tier routing diagram](/assets/images/articles/architecture_3tier.png)
+
 ## Architecture Overview
 
 ```

@@ -60,6 +60,8 @@ It's designed for anyone — developers and non-developers alike — who wants t
 
 ---
 
+![Ollama vs LM Studio decision tree — answer 3 questions to choose](/assets/images/articles/ollama_vs_lmstudio.png)
+
 ## Side-by-Side Comparison
 
 | Feature | Ollama | LM Studio |

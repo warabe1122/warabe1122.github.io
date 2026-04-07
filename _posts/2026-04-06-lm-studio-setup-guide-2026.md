@@ -38,6 +38,8 @@ The catch? You need decent hardware. But if you're reading this on a machine bou
 
 ---
 
+![Apple Silicon LLM Model Guide — which model runs best on your Mac](/assets/images/articles/hardware_model_guide.png)
+
 ## Step 2 – Can Your Mac or PC Run LM Studio? System Requirements
 
 ### Who This Guide Is For
