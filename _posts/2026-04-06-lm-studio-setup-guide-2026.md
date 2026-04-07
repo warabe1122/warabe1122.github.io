@@ -6,6 +6,9 @@ categories: [Tutorial, LM Studio]
 tags: [local-llm, lm-studio, setup, tutorial, ollama, mac, windows]
 toc: true
 toc_sticky: true
+header:
+  teaser: /assets/images/articles/ogp_lm_studio_setup.png
+  og_image: /assets/images/articles/ogp_lm_studio_setup.png
 ---
 
 This is a **step-by-step LM Studio setup guide for Mac and Windows** to install and run local LLMs — completely offline, completely free, with zero data leaving your machine.

@@ -5,6 +5,9 @@ categories: [Strategy, Cost]
 tags: [llm-cost, optimization, api-billing, hybrid-llm, case-study, prompt-engineering, caching]
 toc: true
 toc_sticky: true
+header:
+  teaser: /assets/images/articles/ogp_cost_optimization.png
+  og_image: /assets/images/articles/ogp_cost_optimization.png
 excerpt: "A 5-person dev team was spending $2,000/month on LLM APIs. After applying these 7 techniques, they cut it to $400 — without losing output quality. Here's exactly how."
 ---
 

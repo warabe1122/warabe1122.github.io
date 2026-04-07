@@ -6,6 +6,9 @@ categories: [Tutorial, Benchmarks]
 tags: [local-llm, mac, apple-silicon, m2, m3, m4, benchmark, performance, ollama, lm-studio]
 toc: true
 toc_sticky: true
+header:
+  teaser: /assets/images/articles/ogp_best_models_mac.png
+  og_image: /assets/images/articles/ogp_best_models_mac.png
 ---
 
 Apple Silicon is the best consumer hardware for running local LLMs in 2026. The unified memory architecture — where CPU and GPU share the same RAM — means your Mac can load models that would require a dedicated GPU on Windows.
