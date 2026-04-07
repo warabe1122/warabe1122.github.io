@@ -115,30 +115,17 @@ analytics:
 # Site Author
 author:
   name             : "HybridLLM.dev"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Master hybrid LLM strategies: local + cloud."
-  location         : ""
+  avatar           : "/assets/images/site-logo.png"
+  bio              : "Run AI locally, call the cloud only when you need it. Practical guides for developers building hybrid LLM workflows."
+  location         :
   email            :
-  # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
+    - label: "X / Twitter"
       icon: "fab fa-fw fa-square-x-twitter"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-square-facebook"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://x.com/hybridllm"
+    - label: "hybrid-llm.com"
+      icon: "fas fa-fw fa-link"
+      url: "https://hybrid-llm.com/"
 
 # Site Footer
 footer:
