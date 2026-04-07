@@ -6,6 +6,7 @@ tags: [hybrid-llm, implementation, ollama, cloud-api, routing, python, automatio
 toc: true
 toc_sticky: true
 header:
+  image: /assets/images/articles/ogp_building_stack.png
   teaser: /assets/images/articles/ogp_building_stack.png
   og_image: /assets/images/articles/ogp_building_stack.png
 excerpt: "You understand the hybrid LLM concept. Now build it. This is the complete implementation guide — from installing your local models to deploying a team-ready router that cuts API costs for internal tools and dev workflows."

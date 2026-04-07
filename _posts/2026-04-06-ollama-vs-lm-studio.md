@@ -7,6 +7,7 @@ tags: [local-llm, ollama, lm-studio, comparison, mac, windows, api]
 toc: true
 toc_sticky: true
 header:
+  image: /assets/images/articles/ogp_ollama_vs_lmstudio.png
   teaser: /assets/images/articles/ogp_ollama_vs_lmstudio.png
   og_image: /assets/images/articles/ogp_ollama_vs_lmstudio.png
 ---

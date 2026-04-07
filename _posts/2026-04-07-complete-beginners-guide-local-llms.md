@@ -6,6 +6,7 @@ tags: [local-llm, beginners-guide, ollama, lm-studio, mac, windows, hybrid-llm, 
 toc: true
 toc_sticky: true
 header:
+  image: /assets/images/articles/ogp_beginners_guide.png
   teaser: /assets/images/articles/ogp_beginners_guide.png
   og_image: /assets/images/articles/ogp_beginners_guide.png
 excerpt: "What are local LLMs, why would you run one, and how do you get started? A practical guide — primarily for Mac users — from zero to running your first AI model in under 10 minutes."

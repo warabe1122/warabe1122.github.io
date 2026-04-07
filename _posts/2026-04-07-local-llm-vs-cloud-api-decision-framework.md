@@ -6,6 +6,7 @@ tags: [local-llm, cloud-api, decision-framework, hybrid-llm, cost, privacy, deve
 toc: true
 toc_sticky: true
 header:
+  image: /assets/images/articles/ogp_decision_framework.png
   teaser: /assets/images/articles/ogp_decision_framework.png
   og_image: /assets/images/articles/ogp_decision_framework.png
 excerpt: "Stop sending everything to GPT-4. Five factors decide whether a task should run locally or hit a cloud API — here's the framework to make that call in 30 seconds."

@@ -6,6 +6,7 @@ tags: [gpt-4, llama, local-llm, cloud-api, comparison, cost, benchmark, hybrid-l
 toc: true
 toc_sticky: true
 header:
+  image: /assets/images/articles/ogp_gpt4_vs_llama.png
   teaser: /assets/images/articles/ogp_gpt4_vs_llama.png
   og_image: /assets/images/articles/ogp_gpt4_vs_llama.png
 excerpt: "GPT-4 costs $10-30 per million tokens. Llama 3.3 costs $0. But is the free option actually good enough? Here's a side-by-side comparison across quality, speed, and cost on real developer tasks."

@@ -7,6 +7,7 @@ tags: [local-llm, lm-studio, setup, tutorial, ollama, mac, windows]
 toc: true
 toc_sticky: true
 header:
+  image: /assets/images/articles/ogp_lm_studio_setup.png
   teaser: /assets/images/articles/ogp_lm_studio_setup.png
   og_image: /assets/images/articles/ogp_lm_studio_setup.png
 ---

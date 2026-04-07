@@ -7,6 +7,7 @@ tags: [local-llm, mac, apple-silicon, m2, m3, m4, benchmark, performance, ollama
 toc: true
 toc_sticky: true
 header:
+  image: /assets/images/articles/ogp_best_models_mac.png
   teaser: /assets/images/articles/ogp_best_models_mac.png
   og_image: /assets/images/articles/ogp_best_models_mac.png
 ---

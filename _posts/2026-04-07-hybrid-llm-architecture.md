@@ -6,6 +6,7 @@ tags: [hybrid-llm, cost-optimization, local-llm, cloud-api, routing, architectur
 toc: true
 toc_sticky: true
 header:
+  image: /assets/images/articles/ogp_hybrid_architecture.png
   teaser: /assets/images/articles/ogp_hybrid_architecture.png
   og_image: /assets/images/articles/ogp_hybrid_architecture.png
 excerpt: "Most teams route every AI task to GPT-4 or Claude. That's like hiring a senior engineer to do data entry. Here's the hybrid architecture that cuts API bills by 50-70% without sacrificing quality."

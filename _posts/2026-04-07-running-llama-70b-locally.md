@@ -6,6 +6,7 @@ tags: [local-llm, llama, 70b, apple-silicon, ollama, lm-studio, mac, hardware]
 toc: true
 toc_sticky: true
 header:
+  image: /assets/images/articles/ogp_llama_70b.png
   teaser: /assets/images/articles/ogp_llama_70b.png
   og_image: /assets/images/articles/ogp_llama_70b.png
 excerpt: "Llama 3.3 70B is the most capable open-source model you can run at home — but it demands serious hardware. Here's exactly what you need, what to expect, and whether it's worth it."
