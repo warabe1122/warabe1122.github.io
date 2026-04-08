@@ -7,6 +7,9 @@ tags: [openclaw, claude-code, local-llm, non-engineer, workflow, automation, hyb
 toc: true
 toc_sticky: true
 excerpt: "This looks risky. This looks like it's only for engineers. That's exactly what I thought — and exactly what AI is solving right now."
+header:
+  image: /assets/images/eyecatch_openclaw_claudecode.png
+  og_image: /assets/images/eyecatch_openclaw_claudecode.png
 ---
 
 "This is obviously hard. This is probably only for engineers."
