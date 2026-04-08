@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "TsuSu | HybridLLM.dev"
 description              : "Master hybrid LLM strategies: When to run locally vs cloud APIs. LM Studio, Ollama setup, cost optimization, and smart workload routing."
-url                      : "https://hybrid-llm.com/"
+url                      : "https://hybrid-llm.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -90,7 +90,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : hybridllm
 facebook:
   username               :
   app_id                 :
