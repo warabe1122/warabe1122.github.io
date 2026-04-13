@@ -249,4 +249,9 @@ search: false
     width: 100%;
     padding-inline-end: 0;
   }
+
+  /* prevent author sidebar from sticking and overlapping the wide archive */
+  .layout--home.wide .sidebar.sticky {
+    position: relative;
+  }
 }
