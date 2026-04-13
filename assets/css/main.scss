@@ -242,3 +242,11 @@ search: false
     margin-top: 0.3em;
   }
 }
+
+/* wide layout: expand archive to full available width (removes right sidebar gap) */
+@media (min-width: 1024px) {
+  .wide .archive {
+    width: 100%;
+    padding-inline-end: 0;
+  }
+}
