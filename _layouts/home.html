@@ -5,17 +5,53 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[locale].recent_posts | default: "Recent Posts" }}</h3>
-
 {% if paginator %}
-  {% assign posts = paginator.posts %}
+  {% assign all_posts = paginator.posts %}
 {% else %}
-  {% assign posts = site.posts %}
+  {% assign all_posts = site.posts %}
 {% endif %}
+
+{% assign hero_post = all_posts.first %}
+{% assign grid_posts = all_posts | slice: 1, 100 %}
+
+{% if hero_post %}
+  {% assign hero_img = hero_post.header.teaser | default: hero_post.header.image %}
+  <section class="hero-post">
+    <a href="{{ hero_post.url | relative_url }}" class="hero-post__link" aria-label="{{ hero_post.title }}">
+      <div class="hero-post__bg"{% if hero_img %} style="background-image: url('{{ hero_img | relative_url }}')"{% endif %}></div>
+      <div class="hero-post__overlay"></div>
+      <div class="hero-post__content">
+        <div class="hero-post__meta">
+          {% for cat in hero_post.categories limit:2 %}
+            <span class="hero-post__cat">{{ cat }}</span>
+          {% endfor %}
+        </div>
+        <h2 class="hero-post__title">{{ hero_post.title }}</h2>
+        {% if hero_post.excerpt %}
+          <p class="hero-post__excerpt">{{ hero_post.excerpt | markdownify | strip_html | truncate: 200 }}</p>
+        {% endif %}
+        <span class="hero-post__cta">Read Article →</span>
+      </div>
+    </a>
+  </section>
+{% endif %}
+
+<nav class="topic-nav" aria-label="Browse by topic">
+  <span class="topic-nav__label">Browse by topic</span>
+  <div class="topic-nav__pills">
+    <a href="{{ '/categories/' | relative_url }}" class="topic-nav__pill topic-nav__pill--all">All Topics</a>
+    <a href="{{ '/categories/#tutorial' | relative_url }}" class="topic-nav__pill">Tutorial</a>
+    <a href="{{ '/categories/#strategy' | relative_url }}" class="topic-nav__pill">Strategy</a>
+    <a href="{{ '/categories/#case-study' | relative_url }}" class="topic-nav__pill">Case Study</a>
+    <a href="{{ '/categories/#workflow' | relative_url }}" class="topic-nav__pill">Workflow</a>
+  </div>
+</nav>
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html locale=locale entries=posts type=entries_layout %}
+  {% include documents-collection.html locale=locale entries=grid_posts type=entries_layout %}
 </div>
 
 {% include paginator.html locale=locale %}

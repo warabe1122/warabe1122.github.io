@@ -1,0 +1,222 @@
+/* ==========================================================================
+   custom.scss — hero feature, topic nav, card enhancements
+   ========================================================================== */
+
+/* ── Hero Post ─────────────────────────────────────────────────────────── */
+
+.hero-post {
+  margin-bottom: 2em;
+  border-radius: $border-radius;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-post__link {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  min-height: 340px;
+  text-decoration: none;
+  color: inherit;
+
+  &:visited {
+    color: inherit;
+  }
+
+  &:hover .hero-post__title {
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+  }
+
+  @include breakpoint($small) {
+    min-height: 380px;
+  }
+}
+
+.hero-post__bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-color: #1a2234;
+}
+
+.hero-post__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 40%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+
+  @include breakpoint($small) {
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.88) 42%,
+      rgba(0, 0, 0, 0.12) 100%
+    );
+  }
+}
+
+.hero-post__content {
+  position: relative;
+  z-index: 2;
+  padding: 2em 1.5em;
+  color: #fff;
+  width: 100%;
+
+  @include breakpoint($small) {
+    padding: 3em 2.5em;
+    max-width: 62%;
+  }
+}
+
+.hero-post__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  margin-bottom: 0.75em;
+}
+
+.hero-post__cat {
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background: rgba($info-color, 0.9);
+  color: #fff;
+  padding: 0.2em 0.65em;
+  border-radius: 3px;
+}
+
+.hero-post__title {
+  font-size: 1.55em;
+  line-height: 1.22;
+  margin: 0 0 0.8em;
+  color: #fff;
+
+  @include breakpoint($small) {
+    font-size: 2em;
+  }
+}
+
+.hero-post__excerpt {
+  font-size: 0.92em;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 1.5em;
+}
+
+.hero-post__cta {
+  display: inline-block;
+  padding: 0.55em 1.1em;
+  border-radius: $border-radius;
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+  font-size: 0.88em;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background 0.2s ease;
+
+  .hero-post__link:hover & {
+    background: rgba(255, 255, 255, 0.22);
+  }
+}
+
+/* ── Topic Nav ─────────────────────────────────────────────────────────── */
+
+.topic-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+  padding: 0.75em 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.topic-nav__label {
+  font-size: 0.75em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: $muted-text-color;
+  white-space: nowrap;
+}
+
+.topic-nav__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em;
+}
+
+.topic-nav__pill {
+  font-size: 0.78em;
+  font-weight: 600;
+  padding: 0.32em 0.85em;
+  border-radius: 999px;
+  border: 1.5px solid $border-color;
+  color: $muted-text-color;
+  text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+  white-space: nowrap;
+
+  &:visited {
+    color: $muted-text-color;
+  }
+
+  &:hover {
+    border-color: $info-color;
+    color: $info-color;
+    background: rgba($info-color, 0.06);
+    text-decoration: none;
+  }
+
+  &--all {
+    border-color: $info-color;
+    color: $info-color;
+
+    &:visited {
+      color: $info-color;
+    }
+  }
+}
+
+/* ── Grid Card Enhancements ────────────────────────────────────────────── */
+
+.grid__item {
+  .archive__item {
+    border-radius: $border-radius;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .archive__item-teaser {
+    border-radius: $border-radius $border-radius 0 0;
+
+    img {
+      transition: transform 0.35s ease;
+    }
+  }
+
+  &:hover .archive__item-teaser img {
+    transform: scale(1.04);
+  }
+
+  @include breakpoint($medium) {
+    .archive__item-excerpt {
+      display: block;
+      font-size: 0.78em;
+      line-height: 1.55;
+      color: $muted-text-color;
+      margin-top: 0.3em;
+    }
+  }
+}
