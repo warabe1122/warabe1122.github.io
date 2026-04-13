@@ -7,4 +7,238 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import "custom"; // homepage hero, topic nav, card enhancements
+
+/* ==========================================================================
+   Homepage: hero feature, topic nav, card enhancements
+   ========================================================================== */
+
+/* ── Hero Post ─────────────────────────────────────────────────────────── */
+
+.hero-post {
+  margin-bottom: 2em;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-post__link {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  min-height: 340px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-post__link:visited {
+  color: inherit;
+}
+
+.hero-post__link:hover .hero-post__title {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 600px) {
+  .hero-post__link {
+    min-height: 380px;
+  }
+}
+
+.hero-post__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-color: #1a2234;
+}
+
+.hero-post__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 40%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+}
+
+@media (min-width: 600px) {
+  .hero-post__overlay {
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.88) 42%,
+      rgba(0, 0, 0, 0.12) 100%
+    );
+  }
+}
+
+.hero-post__content {
+  position: relative;
+  z-index: 2;
+  padding: 2em 1.5em;
+  color: #fff;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .hero-post__content {
+    padding: 3em 2.5em;
+    max-width: 62%;
+  }
+}
+
+.hero-post__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  margin-bottom: 0.75em;
+}
+
+.hero-post__cat {
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background: rgba(59, 156, 186, 0.9);
+  color: #fff;
+  padding: 0.2em 0.65em;
+  border-radius: 3px;
+}
+
+.hero-post__title {
+  font-size: 1.55em;
+  line-height: 1.22;
+  margin: 0 0 0.8em;
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .hero-post__title {
+    font-size: 2em;
+  }
+}
+
+.hero-post__excerpt {
+  font-size: 0.92em;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 1.5em;
+}
+
+.hero-post__cta {
+  display: inline-block;
+  padding: 0.55em 1.1em;
+  border-radius: 4px;
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+  font-size: 0.88em;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background 0.2s ease;
+}
+
+.hero-post__link:hover .hero-post__cta {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+/* ── Topic Nav ─────────────────────────────────────────────────────────── */
+
+.topic-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+  padding: 0.75em 0;
+  border-bottom: 1px solid #ededef;
+}
+
+.topic-nav__label {
+  font-size: 0.75em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #646769;
+  white-space: nowrap;
+}
+
+.topic-nav__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em;
+}
+
+.topic-nav__pill {
+  font-size: 0.78em;
+  font-weight: 600;
+  padding: 0.32em 0.85em;
+  border-radius: 999px;
+  border: 1.5px solid #ededef;
+  color: #646769;
+  text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+  white-space: nowrap;
+}
+
+.topic-nav__pill:visited {
+  color: #646769;
+}
+
+.topic-nav__pill:hover {
+  border-color: #3b9cba;
+  color: #3b9cba;
+  background: rgba(59, 156, 186, 0.06);
+  text-decoration: none;
+}
+
+.topic-nav__pill--all {
+  border-color: #3b9cba;
+  color: #3b9cba;
+}
+
+.topic-nav__pill--all:visited {
+  color: #3b9cba;
+}
+
+/* ── Grid Card Enhancements ────────────────────────────────────────────── */
+
+.grid__item .archive__item {
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid__item .archive__item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+}
+
+.grid__item .archive__item-teaser {
+  border-radius: 4px 4px 0 0;
+}
+
+.grid__item .archive__item-teaser img {
+  transition: transform 0.35s ease;
+}
+
+.grid__item:hover .archive__item-teaser img {
+  transform: scale(1.04);
+}
+
+@media (min-width: 768px) {
+  .grid__item .archive__item-excerpt {
+    display: block;
+    font-size: 0.78em;
+    line-height: 1.55;
+    color: #646769;
+    margin-top: 0.3em;
+  }
+}
