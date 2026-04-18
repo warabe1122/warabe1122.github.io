@@ -2,7 +2,7 @@
 title: "Two Weeks of OpenClaw That Never Landed: The Day I Packed for Hermes"
 subtitle: "Migration day as an inventory check — and why a thin moving box isn't a defeat"
 date: 2026-04-18
-categories: [Workflow, AI-Agents, Reflection]
+categories: [Workflow, AI-Agents]
 tags: [openclaw, hermes-agent, migration, local-llm, workflow, agent-framework]
 toc: true
 toc_sticky: true
