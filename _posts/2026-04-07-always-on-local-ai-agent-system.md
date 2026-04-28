@@ -187,9 +187,11 @@ This is the layer that separates a useful system from a toy. Without persistent 
 openclaw-vault/
 ├── vault/                  # Main knowledge base
 │   ├── research/           # Research summaries
-│   ├── Agent Workflow Playbook/  # Newsletter drafts
-│   │   └── drafts/         # Article drafts
 │   └── [project folders]/  # Per-project knowledge
+├── hybridllm-x/            # HybridLLM content project
+│   ├── web/                # Blog article drafts
+│   ├── x-posts/            # X thread files
+│   └── x-articles/         # X Article drafts
 ├── memory/                 # Daily session logs
 │   ├── 2026-04-07.md       # Today's log
 │   ├── 2026-04-06.md       # Yesterday's log
