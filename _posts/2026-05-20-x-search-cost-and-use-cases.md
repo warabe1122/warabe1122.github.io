@@ -1,5 +1,5 @@
 ---
-title: "I Got Native X Search Inside My Agent for $0.005 a Query. Here's What That Actually Buys You."
+title: "X Search Used to Mean Scrapers, OAuth, or Paid Tiers. x_search Does It for $0.005."
 subtitle: "x_search lands as a first-class tool in Hermes Agent v0.14 — no scrapers, no OAuth dances, no $200 floor"
 date: 2026-05-20
 categories: [Hermes, AgentTools]
