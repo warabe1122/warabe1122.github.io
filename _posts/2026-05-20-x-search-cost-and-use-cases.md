@@ -8,9 +8,9 @@ toc: true
 toc_sticky: true
 excerpt: "xAI shipped x_search as part of their Agent Tools API. The price is $0.005 per query. Twenty dollars of credits covers roughly 4,000 searches. Here is what the tool actually does, what it costs, and the five things I am already using it for that I could not do before."
 header:
-  image: /assets/images/eyecatch_x_search.png
-  teaser: /assets/images/eyecatch_x_search.png
-  og_image: /assets/images/eyecatch_x_search.png
+  image: /assets/images/eyecatch_x_search_v2.png
+  teaser: /assets/images/eyecatch_x_search_v2.png
+  og_image: /assets/images/eyecatch_x_search_v2.png
 ---
 
 I updated my local agent stack last night to get one feature: `x_search`.
