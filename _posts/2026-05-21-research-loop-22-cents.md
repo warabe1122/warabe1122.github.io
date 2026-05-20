@@ -1,7 +1,7 @@
 ---
 title: "Perplexity Cut Pro Deep Research to 20 a Month. My Hermes Agent Stack Runs Each Query for 22 Cents."
 subtitle: "Local stack on Hermes Agent v0.14, Exa, GPT Researcher, and one Qwen model — what every cent of the 22 buys"
-date: 2026-05-21
+date: 2026-05-21 00:01:00 +0900
 categories: [Hermes, Research]
 tags: [perplexity, hermes-agent, exa, gpt-researcher, qwen, x-search, claude-max, research-loop]
 toc: true
