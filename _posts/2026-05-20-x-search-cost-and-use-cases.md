@@ -32,6 +32,8 @@ Four search modes are exposed:
 - user search
 - thread fetch
 
+![Four search modes available in x_search: keyword search, semantic search, user search, and thread fetch](/assets/images/x_search_4modes.png)
+
 Five filters narrow the result set:
 
 - `allowed_x_handles` (up to 10 specific accounts)
@@ -54,6 +56,8 @@ Per xAI's published pricing page (2026-05-15):
 - **X official Pro legacy**: $5,000 per month, 1M reads.
 - **Apify and similar scrapers**: $0.05-$0.40 per 1,000 items, plus actor maintenance.
 - **Third-party scraper APIs** (GetXAPI, twitterapi.io): $0.001-$0.002 per call, lower compliance ground.
+
+![Cost comparison: xAI x_search at $0.005 per query versus X API pay-per-use, X Basic at $100 per month, X Pro at $5000 per month, Apify scrapers, and third-party scraper APIs](/assets/images/x_search_cost_comparison.png)
 
 x_search is in the same band as the official X API's new pay-per-use rate. The difference is what comes with it.
 
